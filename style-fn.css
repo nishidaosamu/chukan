@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+   }
+   
+   h1 {
+    margin: 0;
+   }
+   
+   .container {
+    overflow: hidden;
+   }
+   
+   .inner-block {
+    width: 900px;
+    height: 500px;
+    object-fit: cover; 
+    margin: 0 auto;
+    position:relative;
+   }
+   
+   
+   .fade-img-box {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-top: 10px;
+    position:relative;
+    border:10px solid #333;
+   }
+   
+   .fade-img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+   }
+
+   .ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+     
+    .ggmap iframe,
+    .ggmap object,
+    .ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    .massage{
+        text-align: left;
+        margin-left: 100px;
+        /* margin: 0 auto; */    
+    }
+
+    .massage2 h3{
+        background-color: #333;
+        color: aliceblue;
+        padding-left: 100px;
+    }
+
+    
+
+     .navbar-light .navbar-brand{
+        color: #f8f9fa;
+     }
+     
+     .data2 {
+         padding-left: 100px;
+     }   
+
+     #footer06 {
+        background: #222;
+      }
+       
+      #footer06 .cont-wrap {
+        padding: 40px 0;
+      }
+       
+      #footer06 .info .address {
+        margin: 20px 0;
+        padding-left: 20px;
+        border-left: 1px solid #fff;
+        color: #ccc;
+      }
+       
+      #footer06 .cont .nav a {
+        color: #ccc;
+      }
+       
+      #footer06 .cont-wrap .map {
+        width: 700px;
+        height: 300px;
+      }
+       
+      #footer06 .cont-wrap .map iframe {
+        width: 100%;
+        height: 100%;
+      }
+       
+      @media only screen and (min-width: 641px) {
+        #footer06 .cont-wrap {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+        }
+      }
+
+      .info h3{
+        background-color: #333;
+        color: aliceblue;
+        padding-left: 20px;
+    }
+
+      .copyright{
+          color:white;
+      }
+    
+       
+           
